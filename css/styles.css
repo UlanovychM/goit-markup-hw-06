@@ -148,7 +148,6 @@ img {
 }
 
 .order__image {
-	padding: 188px 0;
 	max-width: 1440px;
 	margin: 0 auto;
 	background-image: linear-gradient(
@@ -163,15 +162,11 @@ img {
 }
 
 .order__title {
-	max-width: 496px;
 	margin-left: auto;
 	margin-right: auto;
 	color: var(--white);
-	font-size: 56px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 107.143%;
-	letter-spacing: 1.12px;
 	text-align: center;
 	margin-bottom: 48px;
 }
@@ -834,6 +829,21 @@ img {
 		max-width: 320px;
 	}
 
+	.section {
+		padding: 96px 0;
+	}
+
+	.order__image {
+		padding: 72px 0;
+	}
+
+	.order__title {
+		font-size: 36px;
+		line-height: 111.111%;
+		letter-spacing: 0.72px;
+		max-width: 213px;
+	}
+
 	.header__items,
 	.header__contacts {
 		display: none;
@@ -900,6 +910,8 @@ img {
 	.footer .logo {
 		margin-left: auto;
 		margin-right: auto;
+		display: flex;
+		justify-content: center;
 	}
 
 	.footer__items {
@@ -917,7 +929,7 @@ img {
 	}
 
 	.footer__social_links {
-		gap: 40px;
+		gap: 24px;
 	}
 
 	.subscribe__email {
@@ -967,6 +979,17 @@ img {
 		padding: 16px 0;
 	}
 
+	.order__title {
+		max-width: 496px;
+		font-size: 56px;
+		line-height: 107.143%;
+		letter-spacing: 1.12px;
+	}
+
+	.order__image {
+		padding: 112px 0;
+	}
+
 	.header__contacts_link {
 		font-size: 12px;
 		font-weight: 400;
@@ -979,15 +1002,18 @@ img {
 	}
 
 	.feature__items {
-		gap: 0;
+		gap: 72px 24px;
 	}
 
 	.feature__item {
-		flex-basis: calc((100% - 20px) / 2);
+		flex-basis: calc((100% - 24px) / 2);
+	}
+	.feature__subtitle {
+		text-align: inherit;
 	}
 
 	.team__items {
-		gap: 24px;
+		gap: 72px 24px;
 	}
 	.team__item {
 		flex-basis: calc((100% - 24px) / 3);
@@ -998,12 +1024,16 @@ img {
 		flex-basis: calc(100% / 3);
 	}
 	.portfolio__items {
-		gap: 24px;
+		gap: 72px 24px;
 	}
 
 	.footer__items {
 		justify-content: center;
-		gap: 24px;
+		gap: 72px 24px;
+	}
+
+	.footer .logo {
+		display: block;
 	}
 
 	.footer__social_links {
@@ -1024,6 +1054,9 @@ img {
 
 	.footer_form_item {
 		display: flex;
+	}
+	.footer__item_subtitle {
+		text-align: inherit;
 	}
 
 	.modal {
@@ -1078,6 +1111,9 @@ img {
 		font-style: normal;
 		padding: 24px 0;
 	}
+	.order__image {
+		padding: 188px 0;
+	}
 
 	.header__contacts_link {
 		font-size: 16px;
@@ -1103,10 +1139,6 @@ img {
 
 	.footer__items_subscribe {
 		margin-left: auto;
-	}
-
-	.footer__item_subtitle {
-		text-align: inherit;
 	}
 
 	.subscribe__email {
