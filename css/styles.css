@@ -1078,6 +1078,10 @@ img {
 		gap: 24px;
 	}
 
+	.section {
+		padding: 120px 0;
+	}
+
 	.team__items {
 		flex-wrap: nowrap;
 	}
